@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyB7be2xYrygKuL_yUeS3b6WqWIV2WQ0LoQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>443203889488</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.p2apps.mygo</string>
+	<key>PROJECT_ID</key>
+	<string>my-gotrain-mobile</string>
+	<key>STORAGE_BUCKET</key>
+	<string>my-gotrain-mobile.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:443203889488:ios:db5f57b325fbbb021e6455</string>
+</dict>
+</plist>

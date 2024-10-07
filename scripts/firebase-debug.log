@@ -1,0 +1,22 @@
+[debug] [2024-10-06T20:33:52.031Z] ----------------------------------------------------------------------
+[debug] [2024-10-06T20:33:52.032Z] Command:       /Users/prasanpani/.nvm/versions/node/v18.6.0/bin/node /Users/prasanpani/.nvm/versions/node/v18.6.0/bin/firebase projects:addfirebase zzz-ssqn-aaaa
+[debug] [2024-10-06T20:33:52.033Z] CLI Version:   13.20.2
+[debug] [2024-10-06T20:33:52.033Z] Platform:      darwin
+[debug] [2024-10-06T20:33:52.033Z] Node Version:  v18.6.0
+[debug] [2024-10-06T20:33:52.036Z] Time:          Sun Oct 06 2024 16:33:52 GMT-0400 (Eastern Daylight Time)
+[debug] [2024-10-06T20:33:52.037Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-06T20:33:52.039Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-06T20:33:52.040Z] > authorizing via signed-in user (prasannajeetpani@gmail.com)
+[debug] [2024-10-06T20:33:52.043Z] Checked if tokens are valid: true, expires at: 1728250357389
+[debug] [2024-10-06T20:33:52.043Z] Checked if tokens are valid: true, expires at: 1728250357389
+[debug] [2024-10-06T20:33:52.043Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/zzz-ssqn-aaaa:addFirebase [none]
+[debug] [2024-10-06T20:33:52.874Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/zzz-ssqn-aaaa:addFirebase 403
+[debug] [2024-10-06T20:33:52.874Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/zzz-ssqn-aaaa:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-10-06T20:33:52.875Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-10-06T20:33:52.877Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/Users/prasanpani/.nvm/versions/node/v18.6.0/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/prasanpani/.nvm/versions/node/v18.6.0/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

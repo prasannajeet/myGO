@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443203889488",
+    "project_id": "my-gotrain-mobile",
+    "storage_bucket": "my-gotrain-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443203889488:android:ddf94bc07e428d151e6455",
+        "android_client_info": {
+          "package_name": "com.p2apps.mygo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvQTBEdvgUJwJbWhxMSlHfDD_dqvuXWek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
